@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "start-storybook -p 6006 -s ./public",
-    "build-storybook": "build-storybook -s ./public"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@emotion/react": "^11.8.2",
@@ -35,6 +35,8 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-storybook": "^0.5.7",
     "prettier": "2.5.1",
-    "typescript": "4.6.2"
+    "storybook-addon-next": "^1.7.1",
+    "typescript": "4.6.2",
+    "webpack": "^5.75.0"
   }
 }
